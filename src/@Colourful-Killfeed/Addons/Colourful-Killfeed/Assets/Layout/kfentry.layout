@@ -1,0 +1,214 @@
+PanelWidgetClass root {
+ position 580.08704 3.1441
+ size 625.15295 67.16509
+ halign right_ref
+ hexactpos 1
+ vexactpos 1
+ hexactsize 1
+ vexactsize 1
+ style blank
+ {
+  ImageWidgetClass background {
+   ignorepointer 1
+   color 0.2118 0.2118 0.2118 0.3725
+   size 1 1
+   halign center_ref
+   valign center_ref
+   hexactpos 1
+   vexactpos 1
+   hexactsize 0
+   vexactsize 0
+   image0 "set:dayz_gui image:inv_header_2"
+   mode blend
+   "src alpha" 1
+   "clamp mode" clamp
+   "stretch mode" stretch_w_h
+  }
+  TextWidgetClass weaponName {
+   ignorepointer 1
+   position -1.66009 54.7829
+   size 300 15
+   halign center_ref
+   valign bottom_ref
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   priority 200
+   text "%CUI_WPN_NME%"
+   font "gui/fonts/sdf_MetronBook72"
+   "outline size" 1
+   "outline color" 0 0 0 1
+   "shadow size" 3
+   "shadow color" 0 0 0 0.6549
+   "shadow offset" 2 2
+   "exact text" 0
+   "text halign" center
+  }
+  TextWidgetClass distance {
+   ignorepointer 1
+   position 1.2843 52.0161
+   size 145 15
+   halign center_ref
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   priority 200
+   text "%CUI_KLL_DST%m"
+   "text halign" right
+  }
+  ItemPreviewWidgetClass itemImage {
+   visible 0
+   ignorepointer 1
+   position 0 0
+   size 200 40
+   halign center_ref
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   priority 3
+  }
+  PanelWidgetClass VictimWidget {
+   ignorepointer 1
+   position 5 0
+   size 170 15
+   halign right_ref
+   valign center_ref
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   style blank
+   {
+    WrapSpacerWidgetClass victim_panel {
+     ignorepointer 1
+     size 5 1
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 0
+     style Colorable
+     Padding 3
+     Margin 0
+     {
+      TextWidgetClass victimGroup {
+       ignorepointer 1
+       size 48 1
+       hexactpos 1
+       vexactpos 1
+       hexactsize 1
+       vexactsize 0
+       text "%CUI_VCT_GRP%"
+       font "gui/fonts/sdf_MetronBook72"
+       "outline size" 1
+       "outline color" 0 0 0 1
+       "shadow size" 3
+       "shadow color" 0 0 0 0.6549
+       "shadow offset" 2 2
+       "exact text" 0
+       "size to text h" 1
+       "size to text v" 0
+      }
+      TextWidgetClass victimName {
+       ignorepointer 1
+       size 48 1
+       hexactpos 1
+       vexactpos 1
+       hexactsize 1
+       vexactsize 0
+       text "%CUI_VCT_NME%"
+       font "gui/fonts/sdf_MetronBook72"
+       "outline size" 1
+       "outline color" 0 0 0 1
+       "shadow size" 3
+       "shadow color" 0 0 0 0.6549
+       "shadow offset" 2 2
+       "exact text" 0
+       "size to text h" 1
+       "size to text v" 0
+      }
+     }
+    }
+   }
+  }
+  PanelWidgetClass KillerWidget {
+   ignorepointer 1
+   position 5 0
+   size 170 15
+   valign center_ref
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   {
+    WrapSpacerWidgetClass killer_panel {
+     ignorepointer 1
+     size 5 1
+     valign center_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 0
+     style Colorable
+     Padding 3
+     Margin 0
+     {
+      TextWidgetClass killerGroup {
+       ignorepointer 1
+       size 48 0.99
+       hexactpos 1
+       vexactpos 1
+       hexactsize 1
+       vexactsize 0
+       text "%CUI_KLR_GRP%"
+       font "gui/fonts/sdf_MetronBook72"
+       "outline size" 1
+       "outline color" 0 0 0 1
+       "shadow size" 3
+       "shadow color" 0 0 0 0.6549
+       "shadow offset" 2 2
+       "exact text" 0
+       "size to text h" 1
+       "size to text v" 0
+      }
+      TextWidgetClass killerName {
+       ignorepointer 1
+       size 48 1
+       hexactpos 1
+       vexactpos 1
+       hexactsize 1
+       vexactsize 0
+       text "%CUI_KLR_NME%"
+       font "gui/fonts/sdf_MetronBook72"
+       "outline size" 1
+       "outline color" 0 0 0 1
+       "shadow size" 3
+       "shadow color" 0 0 0 0.6549
+       "shadow offset" 2 2
+       "exact text" 0
+       "size to text h" 1
+       "size to text v" 0
+      }
+     }
+    }
+   }
+  }
+  ImageWidgetClass killTypeIco {
+   ignorepointer 1
+   size 40 40
+   halign center_ref
+   valign center_ref
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   priority 5
+   image0 "set:CUIKF_Images image:ANIMAL"
+   mode additive
+   "src alpha" 1
+   "clamp mode" clamp
+  }
+ }
+}

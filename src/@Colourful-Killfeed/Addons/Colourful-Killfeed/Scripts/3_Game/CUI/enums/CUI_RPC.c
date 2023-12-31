@@ -1,25 +1,28 @@
 /*
- * DayZ - Piss N' Shit Mod
+ * Colourful UI - Killfeed Addon
  * Developed by @Dean Reid
  *
- * Class: PNS_RPC.c
+ * Class: CUI RPC.c
  *  
  * Class Information:
  *
- * Class handles Remote Procedure Calls
+ * Class handles RPC Stuff
  * 
- * Info: Starts at WSID + 0
- *
  * Program Version: 1.0
  * Code Version: 1.0
  * 
  * Updates: 
- * 15/03/2023 - Initial Code Development
+ * 06/03/2022 - Initial Code Development
  */
+
 enum CUIRPC {
     CUIRPC_START = 29462906720,
 	
+	// Server RPC's
+	RPC_SERVER_ADMINMENU,
+	
     // Client RPC's
+	RPC_CLIENT_SHOWMENU,
     RPC_CLIENT_HANDLEUI,
-    RPC_CLIENT_SETCONFIG,
+    RPC_CLIENT_SETCONFIG
 }

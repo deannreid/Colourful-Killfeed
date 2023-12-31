@@ -24,23 +24,30 @@ class CUIConfig {
 	/*
 	* Game Floats
 	*/	
-
+	private int version;
+	private int UIRateLimit;
+	private int PermissionReloadTime;
 	/*
 	* Server Booleans
 	*/	
 	private string CUI_EnableLogging; // Enable Server Logging
 	
 	void CUIConfig() {
-	
 		private static ref CUIConfig cuiConfig = NULL;
 	
 		//GB
 
 		//GF
-
+		int version = 1;
+	 	int UIRateLimit = 1;
+		int PermissionReloadTime = 60; 
 		//SB
 		CUI_EnableLogging = "true";
 	}
+	
+	int GetUIRateLimit() {
+        return UIRateLimit;
+    }
 	
 	float GetConfigReloadTime() {
         return PermissionReloadTime;
@@ -56,13 +63,28 @@ class CUIConfig {
 	void ValidateOptions() {
 		Print("[CUI - ConfigManager] :: Validating Configuration Entries");
 
+		// Check UI Rate Limit
+		if (UIRateLimit < 1) {
+            UIRateLimit = 1;
+			Print("[CUIConfig] :: String {{UIRateLimit}} is empty!!! | Setting it to Default " + UIRateLimit);
+        }
+		
+		// Time to check if permissions have changed. 
+        if (PermissionReloadTime < 1) {
+            PermissionReloadTime = 60;
+			Print("[CUIConfig] :: String {{PermissionReloadTime}} is empty!!! | Setting it to Default " + PermissionReloadTime);
+		}
 		//Enable Logging Validation
 		if (CUI_EnableLogging == string.Empty) {
 	            CUI_EnableLogging = "true";
 				Print("[CUIConfig] :: String {{CUI_EnableLogging}} is empty!!! | Setting it to Default " + CUI_EnableLogging);
 	    }			
 
-
 		Print("[CUI - ConfigManager] :: Validated Configuration Entries");	
 	}	
+	
+	void LoadDefaults() {
+		Init();
+		
+	}
 }

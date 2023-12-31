@@ -1,0 +1,13 @@
+WrapSpacerWidgetClass root {
+ position 0.33328 0.01844
+ size 600 600
+ halign right_ref
+ hexactpos 0
+ vexactpos 0
+ hexactsize 1
+ vexactsize 1
+ "Size To Content H" 1
+ "Size To Content V" 1
+ content_halign center
+ content_valign bottom
+}

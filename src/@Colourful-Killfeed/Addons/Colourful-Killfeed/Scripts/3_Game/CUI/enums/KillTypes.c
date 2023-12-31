@@ -15,9 +15,26 @@
  * 15/03/2023 - Initial Code Development
  */
 
-class PNSConstants {
-	static const string configRoot 		= "$profile:\\ColourfulUI\\";
-	static const string configFileName	= "CUI_Settings.json";
-	static const string adminFileName 	= "CUI_Admins.json";
-	static const string logFileName 	= "CUI_Log.log";
+enum KillTypes {
+	UNKNOWN,
+
+	WEAPON,
+	HANDS,
+	MELEE,
+
+	TRAP,
+	GRENADE,
+
+	VEHICLE,
+
+	FALL,
+	BLEEDING,
+	DROWNING,
+	SUICIDE,
+	STARVATION,
+	THIRST,
+
+	ZOMBIE,
+	ANIMAL,
+
 }
