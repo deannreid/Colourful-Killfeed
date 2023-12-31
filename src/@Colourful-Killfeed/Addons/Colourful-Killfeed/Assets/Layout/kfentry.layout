@@ -1,17 +1,18 @@
-PanelWidgetClass root {
- position 580.08704 3.1441
- size 625.15295 67.16509
+PanelWidgetClass KFDRoot {
+ position 774.65698 19.3174
+ size 625.15295 94.544
  halign right_ref
  hexactpos 1
  vexactpos 1
  hexactsize 1
  vexactsize 1
- style blank
+ style dashed
  {
   ImageWidgetClass background {
    ignorepointer 1
    color 0.2118 0.2118 0.2118 0.3725
-   size 1 1
+   position -0.65397 -1.2262
+   size 0.99791 1.00067
    halign center_ref
    valign center_ref
    hexactpos 1
@@ -26,7 +27,7 @@ PanelWidgetClass root {
   }
   TextWidgetClass weaponName {
    ignorepointer 1
-   position -1.66009 54.7829
+   position -168.12302 5.34494
    size 300 15
    halign center_ref
    valign bottom_ref
@@ -45,9 +46,9 @@ PanelWidgetClass root {
    "exact text" 0
    "text halign" center
   }
-  TextWidgetClass distance {
+  TextWidgetClass killDistance {
    ignorepointer 1
-   position 1.2843 52.0161
+   position 150.40399 70.3023
    size 145 15
    halign center_ref
    hexactpos 1
@@ -72,7 +73,7 @@ PanelWidgetClass root {
   }
   PanelWidgetClass VictimWidget {
    ignorepointer 1
-   position 5 0
+   position 73.5164 -15.8463
    size 170 15
    halign right_ref
    valign center_ref
@@ -135,7 +136,7 @@ PanelWidgetClass root {
   }
   PanelWidgetClass KillerWidget {
    ignorepointer 1
-   position 5 0
+   position 8.33275 -15.9972
    size 170 15
    valign center_ref
    hexactpos 1
@@ -197,7 +198,8 @@ PanelWidgetClass root {
   }
   ImageWidgetClass killTypeIco {
    ignorepointer 1
-   size 40 40
+   position -3.4837 -7.33207
+   size 80 80
    halign center_ref
    valign center_ref
    hexactpos 1
@@ -206,9 +208,11 @@ PanelWidgetClass root {
    vexactsize 1
    priority 5
    image0 "set:CUIKF_Images image:ANIMAL"
+   imageTexture "{693093EED39DF31A}Colourful-Killfeed/src/@Colourful-Killfeed/Addons/Colourful-Killfeed/Assets/Images/animal.edds"
    mode additive
    "src alpha" 1
    "clamp mode" clamp
+   "stretch mode" invalid
   }
  }
 }

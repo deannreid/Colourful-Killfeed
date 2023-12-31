@@ -24,6 +24,15 @@ modded class MissionServer {
 		
     }
 	
+	// Check ColourfulUI installed, if not then exit.
+	
+	override void OnInit() {
+	
+		super.OnInit();
+		
+		
+	}
+	
 	override void InvokeOnConnect(PlayerBase player, PlayerIdentity identity) {
 		Print("[CUI - missionServer] :: Plugin InvokeOnConnect!");
         super.InvokeOnConnect(player, identity);
