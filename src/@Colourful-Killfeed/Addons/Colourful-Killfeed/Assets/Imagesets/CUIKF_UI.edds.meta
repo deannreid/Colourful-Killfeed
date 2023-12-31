@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{AB10E61A6A1C3270}Colourful-Killfeed/src/@Colourful-Killfeed/Addons/Colourful-Killfeed/Assets/Imagesets/CUIKF_UI.edds"
+ Author "ws-0001"
+ ChangeDate 1463316383
+ Configurations {
+  PAAResourceClass PC {
+   SourceFile "CUIKF_UI.paa"
+  }
+  PAAResourceClass XBOX_ONE : PC {
+  }
+  PAAResourceClass PS4 : PC {
+  }
+  PAAResourceClass LINUX : PC {
+  }
+ }
+}

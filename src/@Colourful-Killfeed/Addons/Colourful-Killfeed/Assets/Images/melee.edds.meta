@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{F9F984E5150FDFE7}Colourful-Killfeed/src/@Colourful-Killfeed/Addons/Colourful-Killfeed/Assets/Images/melee.edds"
+ Author "ws-0001"
+ ChangeDate 759197599
+ Configurations {
+  PAAResourceClass PC {
+   SourceFile "melee.paa"
+  }
+  PAAResourceClass XBOX_ONE : PC {
+  }
+  PAAResourceClass PS4 : PC {
+  }
+  PAAResourceClass LINUX : PC {
+  }
+ }
+}

@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{756BCEDE267D3DD6}Colourful-Killfeed/src/@Colourful-Killfeed/Addons/Colourful-Killfeed/Assets/Images/fall.edds"
+ Author "ws-0001"
+ ChangeDate 322989983
+ Configurations {
+  PAAResourceClass PC {
+   SourceFile "fall.paa"
+  }
+  PAAResourceClass XBOX_ONE : PC {
+  }
+  PAAResourceClass PS4 : PC {
+  }
+  PAAResourceClass LINUX : PC {
+  }
+ }
+}

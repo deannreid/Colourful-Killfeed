@@ -1,0 +1,110 @@
+ImageSetClass {
+ Name "CUIKF_Images"
+ RefSize 2048 2048
+ Textures {
+  ImageSetTextureClass {
+   mpix 1
+   path "{AB10E61A6A1C3270}Colourful-Killfeed/src/@Colourful-Killfeed/Addons/Colourful-Killfeed/Assets/Imagesets/CUIKF_UI.edds"
+  }
+ }
+ Images {
+  ImageSetDefClass ANIMAL {
+   Name "ANIMAL"
+   Pos 9 344
+   Size 331 331
+   Flags 0
+  }
+  ImageSetDefClass BLEEDING {
+   Name "BLEEDING"
+   Pos 349 344
+   Size 331 331
+   Flags 0
+  }
+  ImageSetDefClass DROWNING {
+   Name "DROWNING"
+   Pos 688 344
+   Size 331 331
+   Flags 0
+  }
+  ImageSetDefClass FALLING {
+   Name "FALLING"
+   Pos 1028 344
+   Size 331 331
+   Flags 0
+  }
+  ImageSetDefClass GRENADE {
+   Name "GRENADE"
+   Pos 1368 344
+   Size 331 331
+   Flags 0
+  }
+  ImageSetDefClass PUNCHED {
+   Name "PUNCHED"
+   Pos 1707 344
+   Size 331 331
+   Flags 0
+  }
+  ImageSetDefClass MELEE {
+   Name "MELEE"
+   Pos 349 684
+   Size 331 331
+   Flags 0
+  }
+  ImageSetDefClass STARVATION {
+   Name "STARVATION"
+   Pos 688 684
+   Size 331 331
+   Flags 0
+  }
+  ImageSetDefClass SUICIDE {
+   Name "SUICIDE"
+   Pos 1028 684
+   Size 331 331
+   Flags 0
+  }
+  ImageSetDefClass THIRST {
+   Name "THIRST"
+   Pos 349 1023
+   Size 331 331
+   Flags 0
+  }
+  ImageSetDefClass TEMPERATURE {
+   Name "TEMPERATURE"
+   Pos 1368 684
+   Size 331 331
+   Flags 0
+  }
+  ImageSetDefClass TRAP {
+   Name "TRAP"
+   Pos 688 1023
+   Size 331 331
+   Flags 0
+  }
+  ImageSetDefClass VEHICLE {
+   Name "VEHICLE"
+   Pos 1028 1024
+   Size 331 331
+   Flags 0
+  }
+  ImageSetDefClass WEAPON {
+   Name "WEAPON"
+   Pos 1368 1023
+   Size 331 331
+   Flags 0
+  }
+  ImageSetDefClass ZOMBIE {
+   Name "ZOMBIE"
+   Pos 688 1364
+   Size 331 331
+   Flags 0
+  }
+  ImageSetDefClass UNKNOWN {
+   Name "UNKNOWN"
+   Pos 1028 1363
+   Size 331 331
+   Flags 0
+  }
+ }
+ Groups {
+ }
+}

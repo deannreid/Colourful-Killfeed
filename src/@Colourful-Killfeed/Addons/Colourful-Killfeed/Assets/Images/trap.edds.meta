@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{33C313F85E3B5310}Colourful-Killfeed/src/@Colourful-Killfeed/Addons/Colourful-Killfeed/Assets/Images/trap.edds"
+ Author "ws-0001"
+ ChangeDate 1430286239
+ Configurations {
+  PAAResourceClass PC {
+   SourceFile "trap.paa"
+  }
+  PAAResourceClass XBOX_ONE : PC {
+  }
+  PAAResourceClass PS4 : PC {
+  }
+  PAAResourceClass LINUX : PC {
+  }
+ }
+}

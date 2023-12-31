@@ -1,0 +1,11 @@
+	name="Colourful UI - Killfeed";
+	picture = "PissNShit/PNS_Core/Assets/Images/logoOpaque.edds";
+	logo = "PissNShit/PNS_Core/Assets/Images/logoOpaque.edds";
+	logoSmall = "PissNShit/PNS_Core/Assets/Images/logoOpaque.edds";
+	logoOver = "PissNShit/PNS_Core/Assets/Images/logoOpaque.edds";
+	action="https://github.com/deannreid/DayZ-Piss-N-Shit-Mod";
+	author="BigDeano, DayZ N' Chill";
+	authorID="76561198001768308";
+	version = "1.0.000";
+	overview = "A killfeed addon mod for the Colourful UI range";
+	tooltip = "A killfeed  addon mod for the Colourful UI range";

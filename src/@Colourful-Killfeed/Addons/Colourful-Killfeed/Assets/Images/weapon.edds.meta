@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{748B945D5DD4FB50}Colourful-Killfeed/src/@Colourful-Killfeed/Addons/Colourful-Killfeed/Assets/Images/weapon.edds"
+ Author "ws-0001"
+ ChangeDate 1866493855
+ Configurations {
+  PAAResourceClass PC {
+   SourceFile "weapon.paa"
+  }
+  PAAResourceClass XBOX_ONE : PC {
+  }
+  PAAResourceClass PS4 : PC {
+  }
+  PAAResourceClass LINUX : PC {
+  }
+ }
+}

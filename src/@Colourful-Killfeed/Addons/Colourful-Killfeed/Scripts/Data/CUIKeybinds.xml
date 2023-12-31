@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<modded_inputs>
+    <inputs>
+        <actions>
+            <input name="CUI-KFToggle" loc="STR_CUI_KFTOGGLE" />
+        </actions>
+		<sorting name="cui" loc="STR_CUI_MENU">
+			<input name="CUI-KFToggle"/>
+		</sorting>
+    </inputs>
+    <preset>
+        <input name="CUI-KFToggle">
+            <btn name="INSERT" />
+        </input>
+    </preset>
+</modded_inputs>

@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{A53ABB538B51BB2A}Colourful-Killfeed/src/@Colourful-Killfeed/Addons/Colourful-Killfeed/Assets/Images/vehicle.edds"
+ Author "ws-0001"
+ ChangeDate 1799384991
+ Configurations {
+  PAAResourceClass PC {
+   SourceFile "vehicle.paa"
+  }
+  PAAResourceClass XBOX_ONE : PC {
+  }
+  PAAResourceClass PS4 : PC {
+  }
+  PAAResourceClass LINUX : PC {
+  }
+ }
+}

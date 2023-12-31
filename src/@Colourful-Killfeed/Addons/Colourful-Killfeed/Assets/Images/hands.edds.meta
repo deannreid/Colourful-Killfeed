@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{D578A74FB7C0D860}Colourful-Killfeed/src/@Colourful-Killfeed/Addons/Colourful-Killfeed/Assets/Images/hands.edds"
+ Author "ws-0001"
+ ChangeDate 591425439
+ Configurations {
+  PAAResourceClass PC {
+   SourceFile "hands.paa"
+  }
+  PAAResourceClass XBOX_ONE : PC {
+  }
+  PAAResourceClass PS4 : PC {
+  }
+  PAAResourceClass LINUX : PC {
+  }
+ }
+}

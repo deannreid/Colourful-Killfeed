@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{97E6850EE57CD4B4}Colourful-Killfeed/src/@Colourful-Killfeed/Addons/Colourful-Killfeed/Assets/Images/drown.edds"
+ Author "ws-0001"
+ ChangeDate 155217823
+ Configurations {
+  PAAResourceClass PC {
+   SourceFile "drown.paa"
+  }
+  PAAResourceClass XBOX_ONE : PC {
+  }
+  PAAResourceClass PS4 : PC {
+  }
+  PAAResourceClass LINUX : PC {
+  }
+ }
+}

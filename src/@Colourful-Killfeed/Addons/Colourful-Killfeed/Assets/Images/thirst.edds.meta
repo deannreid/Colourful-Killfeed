@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{47E2F17C9DACF684}Colourful-Killfeed/src/@Colourful-Killfeed/Addons/Colourful-Killfeed/Assets/Images/thirst.edds"
+ Author "ws-0001"
+ ChangeDate 1363177375
+ Configurations {
+  PAAResourceClass PC {
+   SourceFile "thirst.paa"
+  }
+  PAAResourceClass XBOX_ONE : PC {
+  }
+  PAAResourceClass PS4 : PC {
+  }
+  PAAResourceClass LINUX : PC {
+  }
+ }
+}

@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{AB10A8A3DFD76474}Colourful-Killfeed/src/@Colourful-Killfeed/Addons/Colourful-Killfeed/Assets/Images/bleeding.edds"
+ Author "ws-0001"
+ ChangeDate 21000095
+ Configurations {
+  PAAResourceClass PC {
+   SourceFile "bleeding.paa"
+  }
+  PAAResourceClass XBOX_ONE : PC {
+  }
+  PAAResourceClass PS4 : PC {
+  }
+  PAAResourceClass LINUX : PC {
+  }
+ }
+}

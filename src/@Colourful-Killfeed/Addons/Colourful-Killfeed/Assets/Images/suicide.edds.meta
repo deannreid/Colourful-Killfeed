@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{BBD4812DFD01E02D}Colourful-Killfeed/src/@Colourful-Killfeed/Addons/Colourful-Killfeed/Assets/Images/suicide.edds"
+ Author "ws-0001"
+ ChangeDate 994078623
+ Configurations {
+  PAAResourceClass PC {
+   SourceFile "suicide.paa"
+  }
+  PAAResourceClass XBOX_ONE : PC {
+  }
+  PAAResourceClass PS4 : PC {
+  }
+  PAAResourceClass LINUX : PC {
+  }
+ }
+}

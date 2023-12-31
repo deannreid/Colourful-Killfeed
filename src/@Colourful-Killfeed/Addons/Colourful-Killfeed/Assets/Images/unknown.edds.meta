@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{46F6542520B26163}Colourful-Killfeed/src/@Colourful-Killfeed/Addons/Colourful-Killfeed/Assets/Images/unknown.edds"
+ Author "ws-0001"
+ ChangeDate 1598058399
+ Configurations {
+  PAAResourceClass PC {
+   SourceFile "unknown.paa"
+  }
+  PAAResourceClass XBOX_ONE : PC {
+  }
+  PAAResourceClass PS4 : PC {
+  }
+  PAAResourceClass LINUX : PC {
+  }
+ }
+}

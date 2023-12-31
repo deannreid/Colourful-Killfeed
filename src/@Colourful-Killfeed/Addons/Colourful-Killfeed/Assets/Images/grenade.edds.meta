@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{B69C128E13CD19B4}Colourful-Killfeed/src/@Colourful-Killfeed/Addons/Colourful-Killfeed/Assets/Images/grenade.edds"
+ Author "ws-0001"
+ ChangeDate 524316575
+ Configurations {
+  PAAResourceClass PC {
+   SourceFile "grenade.paa"
+  }
+  PAAResourceClass XBOX_ONE : PC {
+  }
+  PAAResourceClass PS4 : PC {
+  }
+  PAAResourceClass LINUX : PC {
+  }
+ }
+}

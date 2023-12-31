@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{693093EED39DF31A}Colourful-Killfeed/src/@Colourful-Killfeed/Addons/Colourful-Killfeed/Assets/Images/animal.edds"
+ Author "ws-0001"
+ ChangeDate 1865969567
+ Configurations {
+  PAAResourceClass PC {
+   SourceFile "animal.paa"
+  }
+  PAAResourceClass XBOX_ONE : PC {
+  }
+  PAAResourceClass PS4 : PC {
+  }
+  PAAResourceClass LINUX : PC {
+  }
+ }
+}
